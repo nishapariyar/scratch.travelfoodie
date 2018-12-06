@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+.pt20 { padding-top: 20px !important; }
+.pl20 { padding-left: 20px !important; }
+.pt30 { padding-top: 30px !important; }
+.pb25 { padding-bottom: 25px !important; }
+.mb60 { margin-bottom: 60px !important; }
+.mt10 { margin-top: 10px !important; }
+
+.app-payu-items {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.app-payu-item {
+	width: 120px;
+	height: 120px;
+	border-radius: 6px;
+	background-color: #ffffff;
+	border: solid 1px #707070;
+	margin: 0 10px 10px 0;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	position: relative;
+}
+.app-payu-item-logo { margin: 0 auto 0 auto; }
+.app-payu-item div { color: #707070; line-height: 1.25em; font-size: 12px; font-weight: normal; margin: auto 0 0 0; text-align: center; }
+.app-payu-item:hover { border-width: 3px; cursor: pointer; }
+.app-payu-item-check { display: none; position: absolute; left: calc(50% - 20px); top: calc(50% - 20px); z-index: 100; }
+.app-payu-item-selected { border-width: 3px; border-color: #68b700; background-color: rgba(104, 183, 0, 0.1); }
+.app-payu-item-selected .app-payu-item-check { display: block; }
