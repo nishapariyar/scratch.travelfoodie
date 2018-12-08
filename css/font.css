@@ -1,17 +1,31 @@
-h1 {
-    font-size: 40px;
-    font-weight: bold;
+#content-box h1{
+    font-family: 'Playfair Display', serif;
     font-style: italic;
-    line-height: 1.1em;
-    text-align: center;
-    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
 }
-.font-playfair{
-    font-family: 'italic', serif;
+ /* *{} means everything.. we are applying Roboto font to everything in the page. bujhis ? */
+
+*{ 
+    font-family: 'Roboto', sans-serif;
 }
-p {
-font-size: 15px;
-line-height: 20px;
-font-family: 'Roboto', sans-serif;
-text-align-last: center;
+
+#content-box .card-text.small-text{
+
+  font-size: 12px; 
+  text-align: left; 
+}
+#content-box .card-text.large-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+#content-box .card-text.text-large{
+    font-size: 15px;
+    font-weight: smsll;
+}
+#content-box .card-text.text-normal{
+    font-size: 15px;
+}
+#content-box .card-text.medium{
+    font-size: 17px;
 }
