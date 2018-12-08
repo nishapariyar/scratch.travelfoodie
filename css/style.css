@@ -1,6 +1,23 @@
-.card.shinchan-friends img {
+#content-box .card{
+    height: 45rem;
+    margin-top:3rem; 
+    margin-bottom:3rem;
+}
+footer {
 
-    width: auto;
-    height: 209px;
+    background: white;
+}
 
+#content-box .btn.btn-primary {
+    height: 70px;
+    border-color: #ff3030;
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    font-weight: bold;
+    color: white;
+    padding: 0 65px 0 30px;
+    font-size: 17px;
+    background: #ff3030 url(/images/arrow.png) calc(100% - 30px) 50% no-repeat;
 }

@@ -1,0 +1,17 @@
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.1em;
+    text-align: center;
+    margin: 0;
+}
+.font-playfair{
+    font-family: 'italic', serif;
+}
+p {
+font-size: 15px;
+line-height: 20px;
+font-family: 'Roboto', sans-serif;
+text-align-last: center;
+}
