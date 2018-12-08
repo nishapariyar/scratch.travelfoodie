@@ -1,3 +1,6 @@
+#content-box {
+    width: 100%;
+}
 #content-box .card{
     height: 45rem;
     margin-top:3rem; 
